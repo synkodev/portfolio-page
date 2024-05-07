@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color:rgb(240, 240, 240);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content-section {
+  padding: 40px 0px;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  padding: 8px 20px;
+  margin: 0px;
+}
+
+.navbar > img {
+  width: 60px;
+  object-fit: contain;
+}
+
+.menu {
+  display: block;
+  list-style-type: none;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 12px;
+  margin: 0px;
+}
+
+.shadow-gradient {
+  box-shadow: 0 0 200px rgba(20, 42, 93, 0.9) inset;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 12px 0px;
+}
+
+main img {
+  width: 250px;
+  object-fit: contain;
+  border-radius: 100px;
+  /* box-shadow: 0 0 200px rgba(0,0,0,0.9) inset; */
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+main h3 {
+  font-size: 28px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer > div {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+footer q {
+  font-size: 32px;
+}
